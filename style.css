@@ -533,7 +533,7 @@ a, p, ul, li, h1, h2, h3 {
 .hero {
   padding-top: 200px;
   padding-bottom: 280px;
-  background-image: url(../images/team.jpg);
+  background-image: url(./images/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
