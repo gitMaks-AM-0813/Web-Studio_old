@@ -93,7 +93,7 @@ a, p, ul, li, h1, h2, h3 {
 
 .details-title-one::before {
   content: "";
-  background: url(.images/antena.jpg) center/270px 120px no-repeat;
+  background: url(./images/antena.jpg) center/270px 120px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
