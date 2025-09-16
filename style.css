@@ -216,8 +216,8 @@ a, p, ul, li, h1, h2, h3 {
   font-style: normal;
 }
 
-.footer-mail,
-.footer-phone {
+.footer-contact,
+.footer-contact {
   color: var(--desk-color);
   font-family: var(--font-family);
   font-weight: 400;
@@ -269,7 +269,7 @@ a, p, ul, li, h1, h2, h3 {
   gap: 9px;
 }
 
-.footer-item-address {
+.footer-item {
   color: var(--white);
   font-family: var(--font-family);
   font-weight: 400;
@@ -277,7 +277,7 @@ a, p, ul, li, h1, h2, h3 {
   font-style: normal;
 }
 
-.footer-mail, .footer-phone {
+.footer-contact, .footer-contact {
   color: var(--primary-text);
   font-family: var(--font-family);
   font-weight: 400;
@@ -452,17 +452,12 @@ a, p, ul, li, h1, h2, h3 {
 .header-cover {
   display: flex;
   align-items: center;
+  margin-right: 46px;
 }
-
-.header-list-two {
+.header-list {
   display: flex;
   gap: 50px;
-}
-
-.header-list-one {
-  display: flex;
-  gap: 50px;
-  margin-left: 93px;
+  margin-left: 46px;
 }
 
 .header-logo-link {
@@ -532,7 +527,7 @@ a, p, ul, li, h1, h2, h3 {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   background-image: url(./images/team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -573,6 +568,7 @@ a, p, ul, li, h1, h2, h3 {
 }
 .team-title {
   padding-top: 94px;
+  margin-bottom: 50px;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
@@ -582,7 +578,7 @@ a, p, ul, li, h1, h2, h3 {
 }
 
 .team-list {
-  padding-bottom: 94px;
+  
   display: flex;
   justify-content: space-around;
   gap: 30px;
@@ -593,6 +589,7 @@ a, p, ul, li, h1, h2, h3 {
   background-color: white;
   padding-bottom: 30px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 94px;
 }
 
 .team {
