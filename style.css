@@ -93,38 +93,42 @@ a, p, ul, li, h1, h2, h3 {
 
 .details-title-one::before {
   content: "";
-  background: url(./images/antena.jpg) center/270px 120px no-repeat;
+  background: url(./images/antenna\ .png) center/70px 70px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  background-color: var(--background-dimmed);
 }
 
 .details-title-two::before {
   content: "";
-  background: url(./images/clock.jpg) center/270px 120px no-repeat;
+  background: url(./images/clock\ .png) center/70px 70px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  background-color: var(--background-dimmed);
 }
 
 .details-title-three::before {
   content: "";
-  background: url(./images/comp.jpg) center/270px 120px no-repeat;
+  background: url(./images/diagram\ .png) center/70px 70px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  background-color: var(--background-dimmed);
 }
 
 .details-title-four::before {
   content: "";
-  background: url(./images/astronaut.jpg) center/270px 120px no-repeat;
+  background: url(./images/astronaut\ .png) center/70px 70px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  background-color: var(--background-dimmed);
 }
 
 .details-text {
@@ -525,8 +529,8 @@ a, p, ul, li, h1, h2, h3 {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: linear-gradient(  94deg,rgba(48, 47, 58, 0.4), rgba(48, 47, 58, 0.4));
-  background-image: url(./images/team.jpg);
+  background: linear-gradient(  94deg,rgba(48, 47, 58, 0.4), rgba(48, 47, 58, 0.4)), url(./images/team.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover;
  
