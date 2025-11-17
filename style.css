@@ -15,22 +15,16 @@ body {
   font-size: 14px;
 }
 
-.container {
-  width: 1250px;
-  margin: 0 auto;
-}
-
-a, p, ul, li, h1, h2, h3 {
-  padding: 0px;
-  margin: 0px;
-}
-
 
 
 a, p, ul, li, h1, h2, h3 {
   padding: 0px;
   margin: 0px;
 }
+
+
+
+
 
 
 
@@ -93,7 +87,7 @@ a, p, ul, li, h1, h2, h3 {
 
 .details-title-one::before {
   content: "";
-  background: url(./images/antenna\ .png) center/70px 70px no-repeat;
+  background: url(./images/antenna\.png) center/70px 70px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
@@ -103,7 +97,7 @@ a, p, ul, li, h1, h2, h3 {
 
 .details-title-two::before {
   content: "";
-  background: url(./images/clock\ .png) center/70px 70px no-repeat;
+  background: url(./images/clock\.png) center/70px 70px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
@@ -113,7 +107,7 @@ a, p, ul, li, h1, h2, h3 {
 
 .details-title-three::before {
   content: "";
-  background: url(./images/diagram\ .png) center/70px 70px no-repeat;
+  background: url(./images/diagram\.png) center/70px 70px no-repeat;
   display: inline-block;
   width: 270px;
   height: 120px;
@@ -555,7 +549,7 @@ a, p, ul, li, h1, h2, h3 {
   background-color: #2196f3;
   border-width: 0;
  padding: 10px 32px 10px 32px;
-  border-radius: 10px;
+  border-radius: 2px;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 16px;
@@ -568,7 +562,7 @@ a, p, ul, li, h1, h2, h3 {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 .team-title {
-  padding-top: 94px;
+  
   margin-bottom: 50px;
   font-family: var(--font-family);
   font-weight: 700;
@@ -581,7 +575,7 @@ a, p, ul, li, h1, h2, h3 {
 .team-list {
   
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 30px;
   list-style: none;
 }
@@ -590,11 +584,12 @@ a, p, ul, li, h1, h2, h3 {
   background-color: white;
   padding-bottom: 30px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  margin-bottom: 94px;
+  
 }
 
 .team {
   background-color: var(--background-color1);
+  padding: 94px 0 94px;
 }
 
 .control {
