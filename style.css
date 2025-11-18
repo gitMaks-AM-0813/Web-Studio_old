@@ -13,6 +13,8 @@ body {
   padding: 0px;
   margin: 0px;
   font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
 }
 
 
@@ -206,7 +208,7 @@ a, p, ul, li, h1, h2, h3 {
   gap: 9px;
 }
 
-.footer-item-address {
+.footer-address {
   color: var(--title-color);
   font-family: var(--font-family);
   font-weight: 400;
@@ -214,7 +216,7 @@ a, p, ul, li, h1, h2, h3 {
   font-style: normal;
 }
 
-.footer-contact,
+
 .footer-contact {
   color: var(--desk-color);
   font-family: var(--font-family);
@@ -667,6 +669,10 @@ span {
   --logo-span: #2196F3;
   --wrap-border: #eee;
 }
+.header-portfolio{
+  padding: 25px 0px;
+  border-bottom: 1px solid gray;
+}
 
 .projects {
   padding: 94px 0px;
@@ -693,6 +699,21 @@ span {
   text-align: center;
   padding: 6px 22px;
   cursor: pointer;
+  border-radius: 4px;
+}
+
+
+.projects-item-btn:nth-child(2){
+  width: 125px;
+}
+.projects-item-btn:nth-child(3){
+  width: 112px;
+}
+.projects-item-btn:nth-child(4){
+  width: 103px;
+}
+.projects-item-btn:nth-child(5){
+  width: 130px;
 }
 
 .projects-item-btn:hover {
