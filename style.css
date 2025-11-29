@@ -269,9 +269,7 @@ body {
   color: var(--logo-span);
 }
 
-.footer-address {
-  margin-top: 20px;
-}
+
 
 .footer-address-list {
   display: flex;
@@ -294,7 +292,35 @@ body {
   font-weight: 400;
   font-size: 14px;
 }
-
+.footer-title{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-color);
+}
+.footer-icon{
+  width: 20px;
+  height: 20px;
+  fill: var(--title-color);
+}
+.footer-icon-list{
+  display: flex;
+    gap: 10px;
+}
+.footer-wrapper{
+  padding-top: 12px;
+}
+.footer-link{
+  padding: 12px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 100%;
+      display: block;
+}
+.footer-link:hover{
+  background-color: var(--accent-color);
+}
 .box {
   background-image: url("/images/computer.jpg");
   background-repeat: no-repeat;
@@ -476,7 +502,7 @@ body {
 .header-list {
   display: flex;
   gap: 50px;
-  margin-left: 46px;
+  
 }
 
 .header-logo-link {
@@ -568,7 +594,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  
 }
 
 .hero-button {
@@ -587,6 +613,7 @@ body {
   align-items: center;
   text-align: center;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 
 .team-title {
@@ -606,8 +633,34 @@ body {
   justify-content: space-between;
   gap: 30px;
   list-style: none;
+  
 }
-
+.team-icon-list{
+      
+    display: flex;
+    gap: 10px;
+    
+    justify-content: center;
+    padding-top: 16px;
+}
+.team-icon{
+  fill: #AFB1B8;
+      width: 20px;
+      height: 20px;
+}
+.icon-link{
+  padding: 12px;
+      
+      display: block;
+}
+.icon-link:hover{
+  background-color: var(--accent-color);
+  border-radius: 100%;
+  
+}
+.icon-link,.team-icon:hover{
+  fill: white;
+}
 .team-item {
   background-color: white;
   padding-bottom: 30px;
@@ -618,6 +671,35 @@ body {
 .team {
   background-color: var(--background-color1);
   padding: 94px 0 94px;
+}
+.clients{
+  padding: 94px 0 94px;
+}
+.clients-title{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--color);
+}
+.clients-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 50px;
+}
+.clients-icon{
+  fill: #AFB1B8;
+  width: 100px;
+  height: 60px;
+  border: 1px solid #AFB1B8;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+.clients-icon:hover{
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .control {
