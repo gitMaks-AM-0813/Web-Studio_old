@@ -226,10 +226,6 @@ body {
   background-color: var(--background-color);
 }
 
-.footer-container {
-  display: flex;
-  flex-direction: column;
-}
 
 .footer-logo-link {
   color: var(--title-color);
@@ -288,7 +284,8 @@ body {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  
 }
 
 .footer-logo-link {
@@ -304,7 +301,7 @@ body {
 
 
 
-.footer-address-list {
+.footer-list {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -332,6 +329,7 @@ font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
+padding-bottom: 20px;
 }
 .footer-icon{
   width: 20px;
@@ -344,6 +342,7 @@ color: var(--title-color);
 }
 .footer-wrapper{
   padding-top: 12px;
+  padding-left: 70px;
 }
 .footer-link{
   padding: 12px;
