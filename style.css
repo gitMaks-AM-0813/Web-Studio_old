@@ -798,7 +798,7 @@ color: var(--color);
 }
 .clients-list{
   display: flex;
-  justify-content: space-evenly;
+  
   
   
   gap: 30px;
@@ -806,10 +806,10 @@ color: var(--color);
 }
 .clients-icon{
   fill: var(--icon-color);
-  width: 170px;
-  height: 92px;
+  width: 106px;
+  height: 60px;
   border: 1px solid #AFB1B8;
-  
+  padding: 16px 32px;
   border-radius: 4px;
 }
 .clients-icon:hover{
