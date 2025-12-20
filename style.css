@@ -532,9 +532,13 @@ padding-bottom: 20px;
 }
 
 .header-list {
-  display: flex;
-  gap: 50px;
   
+  gap: 50px;
+  display: flex ;
+  align-items: center;
+}
+.header-list:nth-child(2){
+  gap: 30px;
 }
 
 .header-logo-link {
@@ -597,12 +601,17 @@ padding-bottom: 20px;
   
   width: 48px;
   height: 4px;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   border-radius: 10px;
 }
 
 .header-link:hover {
   color: var(--accent-color);
+}
+.header-mail:hover,.header-phone:hover{
+  .header-icon{
+    fill: var(--accent-color);
+  }
 }
 
 .header-mail,
@@ -615,11 +624,11 @@ padding-bottom: 20px;
 }
 
 .header-mail:hover,
-.header-phone:hover,
-.header-icon:hover {
-  color: var(--accent-color);
-  fill: var(--accent-color);
+.header-phone:hover{
+ color: var(--accent-color);
+ 
 }
+
 
 .header-link::after {
   content: "";
@@ -641,7 +650,9 @@ padding-bottom: 20px;
   transition: color 0.3s ease;
 }
 
-
+.header-link:hover,.header-icon:hover{
+ fill: var(--accent-color);
+}
 
 .header-link:hover::after {
   background-color: var(--accent-color);
@@ -728,13 +739,17 @@ padding-bottom: 20px;
       display: block;
 }
 .icon-link:hover{
+  .team-icon{
+fill: var(--white);
+  }
+  
+}
+.icon-link:hover{
   background-color: var(--accent-color);
   border-radius: 100%;
   
 }
-.icon-link,.team-icon:hover{
-  fill: var(--title-color);
-}
+
 .team-item {
   background-color: var(--title-color);
   padding-bottom: 30px;
@@ -749,6 +764,7 @@ padding-bottom: 20px;
 .clients{
   padding: 94px 0 94px;
 }
+
 .clients-title{
   font-family: var(--font-family);
 font-weight: 700;
@@ -759,16 +775,18 @@ color: var(--color);
 }
 .clients-list{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  
+  
   gap: 30px;
   padding-top: 50px;
 }
 .clients-icon{
   fill: var(--icon-color);
-  width: 100px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
   border: 1px solid #AFB1B8;
-  padding: 16px 32px;
+  
   border-radius: 4px;
 }
 .clients-icon:hover{
@@ -834,7 +852,7 @@ span {
   align-items: center;
 }
 .projects-item{
-  flex-basis: calc((100% - 193px)/ 3);
+  flex-basis: calc((100% - 180px)/ 3);
 }
 .projects-filter {
   display: flex;
