@@ -344,6 +344,9 @@ padding-bottom: 20px;
       background-color: rgba(255, 255, 255, 0.1);
       border-radius: 100%;
       display: block;
+
+        transition:
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover{
   background-color: var(--accent-color);
@@ -520,7 +523,7 @@ padding-bottom: 20px;
   height: 12px;
   fill: var(--desk-color);
   padding-right: 10px;
-  
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icon-two {
@@ -528,6 +531,7 @@ padding-bottom: 20px;
   height: 16px;
   fill: var(--desk-color);
   padding-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list {
@@ -560,6 +564,8 @@ padding-bottom: 20px;
   font-size: 14px;
   text-decoration: none;
   position: relative;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link-studio{
   color: var(--accent-color);
@@ -622,8 +628,9 @@ padding-bottom: 20px;
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
-    display: inline-flex;
-  align-items: center; 
+  display: inline-flex;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mail:hover,
@@ -717,6 +724,11 @@ padding-bottom: 20px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   cursor: pointer;
   animation: flash 2500ms infinite linear;
+
+   transition:
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @keyframes flash {
   0% {
@@ -761,7 +773,9 @@ padding-bottom: 20px;
   
 }
 .team-item {
-    transition: transform .3s ease, box-shadow .3s ease;
+ transition:
+        transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-item:hover {
@@ -779,12 +793,17 @@ padding-bottom: 20px;
   fill: var(--icon-color);
       width: 20px;
       height: 20px;
+      transition:
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link{
   padding: 12px;
       
       display: block;
+          transition:
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .icon-link:hover{
   .team-icon{
 fill: var(--white);
@@ -835,6 +854,10 @@ color: var(--color);
   border: 1px solid #AFB1B8;
   padding: 16px 32px;
   border-radius: 4px;
+
+   transition:
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon:hover{
   fill: var(--accent-color);
@@ -900,6 +923,9 @@ span {
 }
 .projects-item{
   flex-basis: calc((100% - 360px)/ 3);
+
+  transition:
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .projects-filter {
   display: flex;
