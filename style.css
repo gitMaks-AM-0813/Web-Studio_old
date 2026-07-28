@@ -415,7 +415,7 @@ padding-bottom: 20px;
 }
 
 .box-two {
-  background-image: url("./images/basketball.jpg");
+  
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -424,7 +424,7 @@ padding-bottom: 20px;
 }
 
 .box-three {
-  background-image: url("./images/seafood.jpg");
+
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -433,7 +433,7 @@ padding-bottom: 20px;
 }
 
 .box-four {
-  background-image: url("./images/headphones.jpg");
+  
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -442,7 +442,7 @@ padding-bottom: 20px;
 }
 
 .box-five {
-  background-image: url("./images/boxes.jpg");
+  
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -451,7 +451,7 @@ padding-bottom: 20px;
 }
 
 .box-six {
-  background-image: url("./images/computer-two.jpg");
+ 
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -460,7 +460,6 @@ padding-bottom: 20px;
 }
 
 .box-seven {
-  background-image: url("./images/book.jpg");
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -469,7 +468,7 @@ padding-bottom: 20px;
 }
 
 .box-eight {
-  background-image: url("./images/label.jpg");
+  
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
@@ -478,7 +477,7 @@ padding-bottom: 20px;
 }
 
 .box-nine {
-  background-image: url("./images/buisness.jpg");
+
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
